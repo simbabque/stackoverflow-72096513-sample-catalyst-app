@@ -1,0 +1,4 @@
+CREATE TABLE `user` (
+    `id` INTEGER PRIMARY KEY AUTOINCREMENT,
+    `number_of_writes` INTEGER NOT NULL DEFAULT 0
+);
